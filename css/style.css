@@ -1,0 +1,1857 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 95%;
+    padding: 0 15px;
+}
+
+
+.my_slider img{
+    padding: 5px;
+}
+.my_slider{
+    transform: rotate(90deg);
+}
+
+.my_slider div img{
+    transform: rotate(-90deg);
+}
+.fd{
+    font-size: 100px;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+.iam_image img{
+    width: 100%;
+    height: auto;
+}
+
+.idfd-con h4{
+    color: red;
+    font-size: 22px;
+}
+.idfd-con h6{
+    color: white;
+}
+.idfd-con p{
+    color: white;
+}
+
+.iam_con{
+    color: white;
+}
+
+
+.home_page {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../images/background-1.png");
+    width: 100%;
+    background-size: cover;
+    background-position: 0 0;
+    box-sizing: border-box;
+    padding: 0 0;
+}
+
+/* .container {
+    max-width: 1170px;
+} */
+
+
+/* Header Styling */
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 0 40px;
+    background-color: #ffff;
+    z-index: 19999;
+}
+
+
+
+.side-navbar ul {
+    list-style: none;
+    /* margin: 0;
+       padding: 0; */
+}
+
+.side-navbar ul li {
+    position: relative;
+    float: left;
+    padding: 0 0 0 31px;
+}
+
+.side-navbar ul li::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: auto;
+    background: #fff;
+    transition: all 0.3s linear;
+}
+
+.side-navbar ul li:hover::after {
+    height: 2px;
+    background: red;
+}
+
+.side-navbar ul>li:first-child {
+    padding: 0;
+}
+
+.side-navbar ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 0 5px 0;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.side-navbar ul li a:hover {
+    color: red;
+}
+
+.side-navbar ul ul {
+    position: absolute;
+    top: 26px;
+    left: 0;
+    z-index: 11;
+    min-width: 180px;
+    background: #fff;
+    padding: 5PX 0;
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.side-navbar ul ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-transform: none;
+    display: block;
+    border-bottom: 0.5px dotted rgba(0, 0, 0, 0.6);
+}
+
+.border-bott {
+    border: 0;
+}
+
+.side-navbar ul li:hover>ul {
+    display: block;
+}
+
+.side-navbar ul ul li {
+    float: none;
+    width: 100%;
+    padding: 0;
+}
+
+.side-navbar ul ul li::after {
+    display: none;
+}
+
+.side-navbar ul ul li a:hover {
+    color: white;
+    background: #e41f23;
+}
+
+.toggle-btn {
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+
+.spinner {
+    height: 3px;
+    background-color: #000;
+    transition: all 0.3s;
+}
+
+.spinner.middle,
+.spinner.bottom {
+    margin-top: 3px;
+}
+
+.toggle-btn {
+    display: none;
+}
+
+#togglecheck {
+    display: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+header input {
+    display: none;
+}
+
+.show-btn {
+    display: none;
+}
+
+#white {
+    background: #fff;
+}
+
+/* Header styling end */
+
+
+
+/* Top Section Styling */
+.admission-top {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.home_page .admission-top span {
+    position: absolute;
+    top: 15px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.home_page .admission-top button {
+    background: linear-gradient(to right, yellow, red);
+    color: white;
+    font-size: 14px;
+    outline: none;
+    border: 0;
+    font-weight: 600;
+    margin-left: 20px;
+    transition: all 0.4s linear;
+}
+
+.home_page .admission-top button:hover {
+    box-shadow: 0px 2px 10px 5px yellow;
+}
+
+/* Top Section Styling end */
+
+
+
+/* Social-links Styling */
+.social-links {
+    padding: 30px 0;
+}
+
+.social-links h2 {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.social-links h5 {
+    color: #fff;
+}
+
+.social-links ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-links ul li a i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    display: block;
+    margin: 0px 10px;
+    color: #fff;
+    border-radius: 8px;
+    transition: transform 0.5s linear;
+}
+
+
+
+.social-links span {
+    text-align: left;
+}
+
+.social-links .fa-facebook {
+    background-color: #3742fa;
+}
+
+.social-links .fa-instagram {
+    background: linear-gradient(to bottom left, #EA2027, #833471, #3742fa);
+}
+
+.social-links .fa-whatsapp {
+    background-color: #2ed573;
+}
+
+.social-links .fa-youtube-play {
+    background-color: #EA2027;
+}
+
+.social-links ul li a i:hover {
+    transform: scale(1.2);
+}
+
+/* Social-links end */
+
+
+
+
+
+
+
+/* Meet Styling */
+.meet {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 70px 5px 70px;
+}
+
+
+.meet span {
+    font-size: 30px;
+    color: #000000;
+}
+
+.meet strong {
+    font-size: 40px;
+    color: #EA2027;
+}
+
+.meet-parent {
+    border: 3px solid red;
+    width: 110px;
+    border-radius: 15px;
+    padding: 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 6px 5px inset, rgba(0, 0, 0, 0.3) -3px -3px 6px 5px inset;
+}
+
+/* Meet Styling end */
+
+
+
+
+/* Past & Upcoming events..  styling */
+.fun {
+    padding-top: 90px;
+
+}
+
+.fun h2 {
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.idfd {
+    padding-top: 20px;
+}
+
+.idfd .interior-design {
+    font-size: 140px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.idfd span {
+    padding-left: 10px;
+    position: absolute;
+    left: 15px;
+    top: 140px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.idfd .down {
+    width: 150px;
+    text-align: center;
+}
+
+.idfd .down i {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Past & Upcoming events..  styling end */
+
+
+
+
+/* Collaboration section styling */
+.collaboration {
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+
+.collaboration span {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.collaboration .borde {
+    width: 180px;
+    height: 5px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.collaboration .par_btn {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.collaboration .par_btn .fashion {
+    color: #fff;
+    padding: 10px 8px;
+    background-color: #EA2027;
+}
+
+.collaboration .par_btn .interior {
+    color: #fff;
+    padding: 5px 3px;
+    background-color: #d35400;
+}
+
+/* Collaboration section styling end */
+
+
+
+
+/* Collaboration Image section styling */
+.box-floating-images {
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.floating-images-compress {
+    width: 46.5%;
+
+}
+
+.box-floating-images .floating-images-box {
+    border-radius: 8px;
+    transition: transform 0.4s linear;
+    cursor: pointer;
+}
+
+.box-floating-images .floating-images-box h5 {
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+}
+
+.box-floating-images .floating-images-box small {
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+
+.box-floating-images .floating-images img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.box-floating-images .floating-images-box:hover {
+    transform: scale(1.1);
+}
+
+/* Collaboration Image section styling  end*/
+
+
+
+/* Interior exhibitions and fashion shows section styling */
+.collaboration-2 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.collaboration-2 span {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.collaboration-2 .borde {
+    width: 180px;
+    height: 5px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+}
+
+.collaboration-2 .par_btn {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.collaboration-2 .par_btn .fashion {
+    color: #fff;
+    padding: 10px 8px;
+    background-color: #EA2027;
+}
+
+.collaboration-2 .par_btn .interior {
+    color: #fff;
+    padding: 5px 3px;
+    background-color: #d35400;
+}
+
+/* Interior exhibitions and fashion shows section styling end */
+
+
+
+/* Desiner Card section styling */
+.box-inifd {
+    padding-bottom: 0px;
+}
+
+
+.box-inifd .inifd-desiners .inifd-designer-img {
+    background-color: #dfe6e9;
+    transition: transform 0.4s linear;
+    margin-right: 10px;
+    padding: 4px;
+}
+
+.box-inifd .inifd-desiners .inifd-designer-img:hover {
+    transform: scale(1.1);
+}
+
+.box-inifd .inifd-desiners .inifd-designer-img .inifd-card {
+    background-color: #fff;
+    border-radius: 8px;
+    border-top: 3px solid red;
+    padding-bottom: 5px;
+}
+
+.box-inifd .inifd-desiners .inifd-designer-img .inifd-card .card-image {
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+
+}
+
+.box-inifd .inifd-desiners .inifd-designer-img .inifd-card .card-image img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.box-inifd .inifd-desiners .inifd-designer-img .inifd-card .card-content h5 {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    color: #EA2027;
+}
+
+.box-inifd .inifd-desiners .inifd-designer-img .inifd-card .card-content a {
+    color: #EA2027;
+}
+
+.box-inifd h1 {
+    position: absolute;
+    left: 100px;
+    font-size: 35px;
+    top: 150px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+
+.box-inifd h4 {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    font-size: 35px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* Desiner Card section styling end */
+
+
+.media-coverage-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../images/background-2.png");
+    width: 100%;
+    background-size: cover;
+    background-position: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+
+/* Our mentors section styling */
+.coverage {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.coverage h3 {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.our-men {
+    padding-bottom: 50px;
+}
+
+.our-overlay {
+    position: relative;
+    width: 100%;
+    opacity: 1;
+    transition: transform 0.5s;
+}
+
+.our-overlay .overlay {
+    position: absolute;
+    width: 100%;
+    bottom: 100%;
+    height: 0;
+    transition: 0.5s linear;
+    background-color: rgba(240, 51, 57, 0.9);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.our-overlay .overlay .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.our-overlay:hover .overlay {
+    bottom: 0;
+    height: 100%;
+    transform: scale(1.1);
+}
+
+
+
+.our-overlay .overlay .overlay-content h4 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.our-overlay .overlay .overlay-content p {
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+
+.our-overlay img {
+    border-radius: 10px;
+    transition: transform 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+.our-overlay:hover img {
+    transform: scale(1.1);
+}
+
+
+
+.card .card-overlay {
+    position: absolute;
+    width: 100%;
+    bottom: 100%;
+    height: 0;
+    transition: 0.5s linear;
+    background-color: rgba(240, 51, 57, 0.9);
+    overflow: hidden;
+    border-radius: 0.375rem;
+}
+
+.card .card-overlay .card-overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.card:hover .card-overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+
+
+.card .card-overlay .card-overlay-content h4 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.card .card-overlay .card-overlay-content p {
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+
+/* Our mentors section styling */
+
+
+
+/* Our student works and activities section styling */
+.works {
+    color: #fff;
+}
+
+
+
+.works-activities {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+.works-activities .card-columns {
+    columns: 5;
+    padding-bottom: 5px;
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
+    border-bottom-left-radius: var(--bs-card-inner-border-radius);
+    border-bottom-right-radius: var(--bs-card-inner-border-radius);
+}
+
+.works-activities .card-columns .card {
+    border: none;
+    margin-bottom: 15px;
+}
+
+.works-activities .btn-show-more {
+    background: linear-gradient(to right, yellow, red);
+}
+
+/* Our student works and activities section styling end */
+
+
+
+/* Inhouse Mentors section styling */
+.inhouse {
+    padding-bottom: 50px;
+}
+
+.inhouse h3 {
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    position: absolute;
+    top: 0px;
+}
+
+
+.floating-images-box .inhouse-about h5 {
+    text-align: center;
+    color: white;
+}
+
+/* Inhouse Mentors section styling end */
+
+
+.placement-statistics {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../images/background-3.png");
+    width: 100%;
+    background-size: cover;
+    background-position: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+
+
+/* Placement statistics section styling */
+.placement-statistics .recent-placement {
+    padding-top: 15px;
+}
+
+.placement-statistics .recent-placement h5 {
+    color: #fff;
+}
+
+.recent-placement-image {
+    padding-bottom: 50px;
+}
+
+.recent-placement-image .floating-images-box {
+    width: 20%;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 8px;
+    transition: transform 0.4s linear;
+}
+
+.recent-placement-image .floating-images-box:hover {
+    transform: scale(1.1);
+}
+
+.recent-placement-image .floating-images-box .floating-images img {
+    width: 100%;
+}
+
+.btn-show-more {
+    background: linear-gradient(to right, yellow, red);
+    margin-top: 6px;
+}
+
+/* Placement statistics section styling end */
+
+
+.eminent-jury-members {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../images/background-4.png");
+    width: 100%;
+    background-size: cover;
+    background-position: 0 0;
+    box-sizing: border-box;
+}
+
+/* Eminent jury members section styling */
+.eminent-jury-members .recent-placement h5 {
+    color: #fff;
+}
+
+/* Eminent jury members section styling end */
+
+
+/* Our Academic section styling */
+.academic-tour {
+    color: white;
+}
+
+/* Our Academic section styling end */
+
+
+
+/* ---------------------------------------------Fashion Design Page Styling----------------------------- */
+
+.design-institute img {
+    width: 100%;
+}
+
+.design-institute h2 {
+    color: #df111b;
+    font-weight: 600;
+    margin: 40px 0 25px 0;
+    padding: 0;
+    text-align: left;
+    position: relative;
+}
+
+.design-institute h2::after {
+    background-color: #6091BA;
+    content: "";
+    display: table-caption;
+    height: 2px;
+    margin: 14px auto 0;
+    width: 80px;
+}
+
+.innovative h5 {
+    margin: 0;
+    line-height: 24px;
+    /* word-spacing: 2px; */
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #ffff;
+    padding-top: 40px;
+}
+
+.bg-colo {
+    background-color: #23262d;
+    width: 100%;
+}
+
+/* .fashion_home_page{
+    background-color: #000080;
+} */
+
+
+.form-enquiry {
+    background: #efeaea;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+}
+
+.form-enquiry h3 {
+    font-family: "Playfair Display", serif;
+    display: block;
+    font-size: 23px;
+    background: #dc1319;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+.fashion_midd_page {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/fashion-page-bg-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    padding: 30px 0 20px 0;
+}
+
+.fashion_midd_page h1 {
+    color: #ffff;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.fashion_midd_page .design-ab {
+    margin-left: 93px;
+    color: #ffff;
+    position: absolute;
+    top: 34px;
+}
+
+.fashion_midd_page .design-ab span {
+    background: linear-gradient(to right, red, yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.fashion_midd_page .one-year-found {
+    background: linear-gradient(to right, red, yellow);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.one-year-found h4 {
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.one-year-down {
+    text-align: center;
+}
+
+.one-year-down i {
+    font-size: 45px;
+    position: absolute;
+    text-align: center;
+    background: linear-gradient(red, yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    top: -17px;
+}
+
+.foundations {
+    padding-bottom: 110px;
+}
+
+.career-image {
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.career-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+.career-content {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.brochure h4,
+h5 {
+    color: #ffff;
+}
+
+#click-btn {
+    color: white;
+    padding: 8px;
+    background-color: #dc1319;
+    font-size: 18px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+
+.form-enquiry input[type="text"],
+.form-enquiry input[type="email"],
+.form-enquiry input[type="tel"],
+.form-enquiry input[type="url"],
+.form-enquiry textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+.form-enquiry select,
+textarea {
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px 10px;
+    border: 1px solid #d2acad;
+    border-radius: 0;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.form-enquiry button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: linear-gradient(50deg, #960200, #dc1319);
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+/* ---------------------------------------------Fashion Design Page Styling end------------------------- */
+
+
+
+/* ---------------------------------------------Interior Design page styling -----------------------------*/
+.inner_interior_page {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background-image.png');
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+
+.bg-whi {
+    background-color: #ffff;
+    position: relative;
+}
+
+.inner_interior_page h1 {
+    color: white;
+}
+
+.inner_interior_page .design-ab {
+    margin-left: 93px;
+    color: #ffff;
+    position: absolute;
+    top: 34px;
+}
+
+.inner_interior_page .design-ab span {
+    background: linear-gradient(to right, red, yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.inner_interior_page .one-year-found {
+    background: linear-gradient(to right, red, yellow);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* -------------------------------------------- Interior Design Page styling end -------------------------*/
+
+
+
+
+/* -------------------------------3D Carousel Styling */
+/* .carousel {
+    transform: rotate(90deg);
+    margin: auto;
+    width: 400px;
+    margin-top: -80px;
+}
+
+.carousel .carousel-item {
+    visibility: hidden;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel .carousel-item>img {
+    width: 100%;
+    transform: rotate(-90deg);
+}
+
+div.carousel-item.active{
+    opacity: 1;
+}
+
+.carousel .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 24px 4px;
+    background-color: #fab1a0;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    border-radius: 50%;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #00b894;
+}
+
+ul:not(.browser-default)>li {
+    list-style-type: none;
+} */
+
+
+
+/* ---------------------3D carousel Styling end------------------------- */
+
+
+
+/* Other Styling */
+
+.options {
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-gradient {
+    position: relative;
+}
+
+.pb-5 {
+    padding-bottom: 70px;
+}
+
+.pb-0 {
+    padding-bottom: 0px;
+}
+
+
+.pt-0 {
+    padding-top: 0px;
+}
+
+.btn {
+    border: 0;
+}
+
+.pbpt-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.header-padd {
+    padding: 0 0;
+}
+
+.aplnow img {
+    position: fixed;
+    top: 50%;
+    right: -6px;
+    z-index: 10000000;
+    width: 47px;
+}
+
+
+/* Other Styling end */
+
+
+@media screen and (max-width:992px) {
+
+    /* Header styling */
+    .side-navbar ul li a {
+        font-size: 12px;
+    }
+
+    .side-navbar ul li {
+        position: relative;
+        float: left;
+        padding: 0 0 0 18px;
+    }
+
+    /* Header styling */
+
+    .home_page .admission-top span {
+        position: relative;
+        top: 0px;
+    }
+
+    .inner_home_page .social-links h2 {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .meet span {
+        font-size: 22px;
+        word-spacing: 0px;
+    }
+
+    .meet strong {
+        font-size: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .fun {
+        padding-top: 40px;
+    }
+
+    .fun h2 {
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    .idfd {
+        padding-top: 0px;
+    }
+
+    .idfd span {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        padding-left: 0;
+    }
+
+    .idfd .down {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .collaboration {
+        padding-top: 15px;
+    }
+
+    .coverage h3 {
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+    .box-inifd h1 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .box-inifd h4 {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .inhouse h3 {
+        position: relative;
+    }
+
+    .social-links h2 {
+        position: relative;
+        top: 0;
+    }
+}
+
+@media screen and (max-width : 767px) {
+
+    /* Header Styling */
+
+    header {
+        padding: 0 20px;
+    }
+
+    header .side-navbar {
+        height: calc(100vh - 75px);
+        background: red;
+        position: absolute;
+        left: -500px;
+        top: 75px;
+        z-index: 99;
+        transition: 0.5s;
+    }
+
+    .side-navbar ul ul li a {
+        border: 0;
+        line-height: 22px;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+
+    .side-navbar ul {
+        width: 300px;
+        padding: 0px 0px 40px 20px;
+        background: red;
+    }
+
+    .side-navbar ul li {
+        float: none;
+        padding: 0;
+    }
+
+    .side-navbar ul li a i {
+        position: absolute;
+        right: 20px;
+        top: 18px;
+    }
+
+    .side-navbar ul li::after {
+        display: none;
+    }
+
+    .side-navbar ul li a {
+        color: #fff;
+        /* display: block; */
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-transform: none;
+        line-height: 45px;
+    }
+
+
+    .show-btn {
+        color: #fff;
+        display: block;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        padding: 12px 10px 12px 0px;
+        text-transform: none;
+        cursor: pointer;
+    }
+
+    .show-btn::after {
+        content: '';
+        border-color: rgba(0, 0, 0, 0.4);
+        border-bottom-width: 0.5px;
+        border-bottom-style: dotted;
+        width: 280px;
+        display: block;
+        position: absolute;
+        left: 0px;
+        bottom: 0;
+    }
+
+    .show-btn i {
+        position: absolute;
+        right: 20px;
+        top: 18px;
+    }
+
+    .side-navbar ul li a::after {
+        content: '';
+        border-color: rgba(0, 0, 0, 0.4);
+        border-bottom-width: 0.5px;
+        border-bottom-style: dotted;
+        width: 277px;
+        display: block;
+        position: absolute;
+        left: 0px;
+        bottom: 0;
+    }
+
+    /* .side-navbar ul ul li a::after{
+                 display: none; 
+                content: '';
+                border-bottom-width: 1px;
+                border-style: dotted;
+                border-color: rgba(0, 0, 0, 0.2);
+                width: 280px;
+                display: block;
+                position: absolute;
+                left: 0px;
+                bottom: 0; 
+            } */
+
+    .side-navbar ul li a:hover {
+        color: #ffff;
+    }
+
+    .side-navbar ul>li:first-child {
+        padding-left: 0px;
+    }
+
+
+    .side-navbar ul ul {
+        position: relative;
+        top: 0;
+        width: 280px;
+        background: #e41f23;
+    }
+
+    .show-btn+a {
+        display: none;
+    }
+
+
+
+
+    .side-navbar ul li:hover>ul {
+        display: none;
+    }
+
+    #togglecheck:checked~.side-navbar {
+        left: 0px;
+    }
+
+    #togglecheck:checked~.toggle-btn>.spinner.middle {
+        opacity: 0;
+    }
+
+    #togglecheck:checked~.toggle-btn>.spinner.top {
+        transform: rotate(135deg);
+        margin-top: 8px;
+    }
+
+    #togglecheck:checked~.toggle-btn>.spinner.bottom {
+        transform: rotate(-135deg);
+        margin-top: -9px;
+    }
+
+    #about:checked+ul {
+        display: block;
+    }
+
+    #interior-design:checked+ul {
+        display: block;
+    }
+
+    #fashion-design:checked+ul {
+        display: block;
+    }
+
+    #students-life:checked+ul {
+        display: block;
+    }
+
+    #placement:checked+ul {
+        display: block;
+    }
+
+    /* Header Styling end */
+
+    /* .home_page {
+        padding: 0 20px;
+    } */
+
+    /* .media-coverage-page {
+        padding: 0 20px;
+    } */
+
+    /* .placement-statistics {
+        padding: 0 20px;
+    } */
+
+    /* .eminent-jury-members {
+        padding: 0 20px;
+    } */
+
+    .works-activities .card-columns {
+        columns: 3;
+    }
+
+    /* .placement-statistics {
+        padding: 0 20px;
+    } */
+
+
+    .admission-top {
+        padding: 0;
+    }
+
+    #top-bar {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    #top-bar button {
+        width: 100%;
+        color: black;
+        margin-left: 0;
+    }
+
+    .social-links ul li a i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+    /* Fashion Design page */
+    .bg-color {
+        position: relative;
+    }
+
+    .design-institute .bg-color h5 {
+        width: 100%;
+    }
+
+    .one-top i {
+        top: -185px;
+    }
+
+    .one-middle i {
+        top: -101px;
+    }
+
+    .one-bottom i {
+        top: -17px;
+    }
+
+    /* Fashion Design page */
+
+
+    .my_slider{
+        transform: rotate(0deg);
+    }
+    
+    .my_slider div img{
+        transform: rotate(0deg);
+    }
+
+    .fd {
+        font-size: 100px;
+        color: white;
+        height: 150px;
+        text-align: center;
+    }
+
+
+}
+
+/* @media screen and (max-width: 768px) {
+    
+} */
+
+@media screen and (max-width: 576px) {
+    .floating-images-compress {
+        width: 100%;
+    }
+
+    .social-links ul li a i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .our-men {
+        padding-bottom: 15px;
+        padding-bottom: 15px;
+    }
+
+    .works-activities .card-columns {
+        columns: 2;
+    }
+    .inhouse{
+        padding-bottom: 0;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:1321px) {
+    header .logo img {
+        width: 200px;
+        height: auto;
+    }
+
+    .side-navbar ul li a {
+        font-size: 17px;
+    }
+
+    .home_page .admission-top span {
+        font-size: 30px;
+    }
+
+    .home_page .admission-top button {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    .side-navbar ul li a {
+        font-size: 21px;
+    }
+    .social-links h2{
+        font-size: 40px;
+        position: relative;
+        top: 0;
+        margin-bottom: 0;
+        line-height: 2;
+    }
+    .social-links h5{
+        font-size: 40px;
+    }
+    .social-links ul li a i {
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        line-height: 90px;
+        font-size: 50px;
+        display: block;
+        margin: 0px 10px;
+        color: #fff;
+        border-radius: 8px;
+        transition: transform 0.5s linear;
+    }
+    .meet span{
+        font-size: 50px;
+    }
+
+    .meet strong{
+        font-size: 70px;
+    }
+    .meet-parent{
+        height: 200px;
+        width: 200px;
+    }
+    .meet-parent img{
+        width: 90px;
+        height: auto;
+        padding-top: 40px;
+    }
+    .form-enquiry h3{
+        font-size: 40px;
+    }
+    .form-enquiry input[type="text"], .form-enquiry input[type="email"], .form-enquiry input[type="tel"], .form-enquiry input[type="url"], .form-enquiry textarea{
+        font-size: 25px;
+    }
+    .form-enquiry button[type="submit"] {
+        font-size: 35px;
+    }
+    .design-institute h2{
+        font-size: 40px;
+    }
+    .design-institute h2::after {
+        width: 180px;
+        height: 10px;
+    }
+    .innovative h5{
+        line-height: 55px;
+        font-size: 40px;
+    }
+    .fashion_midd_page h1{
+        font-size: 50px;
+    }
+    .fashion_midd_page .design-ab span{
+        font-size: 40px;
+    }
+    .one-year-found h4 {
+        font-size: 48px;
+    }
+    .one-year-down i{
+        font-size: 80px;
+        top: -28px;
+    }
+    .career-content h6{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (min-width:1950px) {
+    .home_page .admission-top span {
+        font-size: 30px;
+    }
+
+    .home_page .admission-top button {
+        font-size: 30px;
+    }
+
+    header .logo img {
+        width: 250px;
+        height: auto;
+    }
+
+    .side-navbar ul li a {
+        font-size: 28px;
+    }
+
+    .side-navbar ul li a i {
+        font-size: 35px;
+    }
+    .social-links h2{
+        font-size: 50px;
+    }
+    .social-links h5{
+        font-size: 50px;
+    }
+    .fun h2{
+        font-size: 50px;
+    }
+    .collaboration span{
+        font-size: 50px;
+    }
+    .collaboration-2 span{
+        font-size: 50px;
+    }
+    .box-inifd h1{
+        font-size: 60px;
+    }
+    .box-inifd h4{
+        font-size: 50px;
+        top: 220px;
+    }
+    .coverage h3{
+        font-size: 50px;
+    }
+    .works{
+        font-size: 50px;
+    }
+    .inhouse h3{
+        font-size: 50px;
+    }
+    .placement-statistics .recent-placement h5{
+        font-size: 50px;
+    }
+    .eminent-jury-members .recent-placement h5{
+        font-size: 50px;
+    }
+    .academic-tour{
+        font-size: 50px;
+    }
+    .aplnow img{
+        width: 100px;
+    }
+    .btn-show-more {
+        font-size: 40px;
+    }
+    .idfd .interior-design{
+        font-size: 250px;
+    }
+    .idfd img{
+        width: 250px;
+        height: auto;
+    }
+    .idfd .down i{
+        font-size: 100px;
+        text-align: center;
+    }
+    .idfd .down{
+        width: 250px;
+    }
+    .idfd span{
+        font-size: 40px;
+        top: 0px;
+        position: relative;
+    }
+    .collaboration .par_btn .fashion{
+        font-size: 30px;
+    }
+    .collaboration .par_btn .interior{
+        font-size: 27px;
+    }
+    .collaboration .borde {
+        width: 295px;
+    }
+    .collaboration-2 .borde{
+        width: 295px;
+    }
+    .collaboration-2 .par_btn .fashion{
+        font-size: 30px;
+    }
+    .collaboration-2 .par_btn .interior{
+        font-size: 27px;
+    }
+    .floating-images-box .inhouse-about h5{
+        font-size: 35px;
+    }
+    .box-floating-images .floating-images-box small {
+        font-size: 25px;
+    }
+    .side-navbar ul ul{
+        top: 45px;
+        min-width: 240px;
+    }
+    .side-navbar ul ul li a{
+        font-size: 24px;
+    }
+
+}
